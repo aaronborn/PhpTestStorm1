@@ -1,14 +1,11 @@
 {
-  "name": "phpteststorm1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "aaron/demo",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aaronborn/PhpTestStorm1.git"
-  },
-  "private": true
+  "require": {
+    "php": ">=8.2"
+  }
 }
